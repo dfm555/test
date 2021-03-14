@@ -1,4 +1,4 @@
-#Preguntas
+# Preguntas
 - Supone que en un repositorio GIT hiciste un commit y te olvidaste un archivo.
 Explicar como se soluciona si hiciste push, y como si aun no hiciste. De ser posible, buscar que quede solo un commit con los cambios.
 
