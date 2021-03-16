@@ -86,3 +86,16 @@ Escribir las queries para:
   * Yo pienso que todo lo relacionado con Inteligencia Artificial. 
   La forma como ahora podemos utilizar la información almacena para crear modelos de autoaprendizaje para la toma, pronóstico e iteración humano máquina se convierte en este momento en una realidad .
     cuando hace par de años atrás era ficción.
+
+# Simular pagina de producto utilizando React
+
+Dada la imagen adjunta (detalle.png) y el archivo json (detalle.json) armar los componentes necesarios para recrear la pantalla.  
+Es necesario solo armar lo indicado dentro del recuadro rojo.
+Detalles para la implementación: 
+ * Modularizar los componentes.  
+ * Consumir la información del archivo json.  
+ * Enviar un zip y las indicaciones para poder visualizarlo.  
+
+![img_4.png](img_4.png)
+
+> Para visualizar la solución del ejercicio ir a la carpeta react y dentro de ella correr el comando npm install y después npm run dev
