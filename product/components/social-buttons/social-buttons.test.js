@@ -3,15 +3,17 @@ import { shallow } from 'enzyme'
 
 import { findByTestAttr, checkProps } from 'utils';
 
-import Talle  from './index'
+import SocialButtons  from './index'
 
-describe('Talle Component', () => {
+describe('SocialButtons Component', () => {
 	describe('Checking PropTypes', () => {
 		it('Should NOT throw a warning', () => {
       const expectedProps = {
-        data: [],
+        facebookLink: 'Example Text',
+        twitterLink: 'Example Text',
+        whatsappLink: 'Example Text',
       }
-      const propsError = checkProps(Talle, expectedProps)
+      const propsError = checkProps(SocialButtons, expectedProps)
       expect(propsError).toBeUndefined()
     })
 	})
@@ -22,13 +24,15 @@ describe('Talle Component', () => {
     beforeEach(() => {
       mockFunc = jest.fn();
       const props = {
-          data: [],
+          facebookLink: 'Example Text',
+          twitterLink: 'Example Text',
+          whatsappLink: 'Example Text',
       }
-      wrapper = shallow(<Talle {...props} />)
+      wrapper = shallow(<SocialButtons {...props} />)
     })
 
     it('Should render', function () {
-      const component = findByTestAttr(wrapper, 'Talle');
+      const component = findByTestAttr(wrapper, 'SocialButtons');
       expect(component.length).toBe(1);
     })
   })
