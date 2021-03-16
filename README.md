@@ -98,4 +98,4 @@ Detalles para la implementación:
 
 ![img_4.png](img_4.png)
 
-> Para visualizar la solución del ejercicio ir a la carpeta react y dentro de ella correr el comando npm install y después npm run dev
+> Para visualizar la solución del ejercicio ir a la carpeta product y dentro de ella correr el comando npm install y después npm run dev
